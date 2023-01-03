@@ -50,11 +50,11 @@ if (isset($_POST['g-recaptcha-response'])){
     $jsResponse = json_decode($response, true);
     if($jsResponse['success'] == 1 ){
         $key = keytodb(generatekey(25));
-        echo '<script> document.getElementById("Notif").innerHTML = "Here is your generated key!" </script>';
-        echo '<script> document.getElementById("google").style.display = "none";</script>';
+        echo '<https://raw.githubusercontent.com/Kaguya11/Kagu-Hub-v2/main/KaguHub.lua> document.getElementById("Notif").innerHTML = "Here is your generated key!" </https://raw.githubusercontent.com/Kaguya11/Kagu-Hub-v2/main/KaguHub.lua>';
+        echo '<https://raw.githubusercontent.com/Kaguya11/Kagu-Hub-v2/main/KaguHub.lua> document.getElementById("google").style.display = "none";</https://raw.githubusercontent.com/Kaguya11/Kagu-Hub-v2/main/KaguHub.lua>';
         echo '<h3><center>' . $key . '</center></h3>';
     }else{
-        echo '<script> document.getElementById("Notif").innerHTML = "Make sure the recaptcha is checked!" </script>';
+        echo '<script> document.getElementById("Notif").innerHTML = "Make sure the recaptcha is checked!" </https://raw.githubusercontent.com/Kaguya11/Kagu-Hub-v2/main/KaguHub.lua>';
     }
 }
 
