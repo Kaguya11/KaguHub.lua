@@ -3,7 +3,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "Kagu Hub", HidePremium = false, IntroText = "Kagu Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
 
 OrionLib:MakeNotification({
-	Name = "Kagu Hub",
+	Name = "Welcome",
 	Content = "Kagu Hub loaded",
 	Image = "rbxassetid://4483345998",
 	Time = 5
@@ -144,5 +144,116 @@ Tab:AddButton({
 	Name = "Bed Wars Hub(PC and Mobile)",
 	Callback = function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/b8YF9b2A"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Tower of Hell",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Script for Tower of Hell"
+})
+
+
+Tab:AddButton({
+	Name = "1)Tower of Hell(PC and Mobile)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/scripts/main/TOH", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "2)Tower of Hell(PC and Mobile)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/Amity/main/RBBattlesHub.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "3)Tower of Hell(PC and Mobile)",
+	Callback = function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/RdGtFex6'))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Your Bizarre Adventure",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Script for Your Bizarre Adventure"
+})
+
+Tab:AddButton({
+	Name = "Bitch Boy v1(PC and Mobile)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/zakater5/LuaRepo/main/YBA/MainGui.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Your Bizarre Adventure(PC and Mobile)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/zakater5/LuaRepo/main/YBA/v3.lua"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Da Hood",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Script for Da Hood"
+})
+
+Tab:AddButton({
+	Name = "Da Hood(PC and Mobile)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/spacexrandom/Lua/main/DaHood"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Emotion Da Hood(PC and Mobile)",
+	Callback = function()
+		loadstring(game:HttpGet'https://vode.gq/r/animation')()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Ray X(PC and Mobile)",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "bee Swarm Simulator",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Script for Bee Swarm Simulator"
+})
+
+Tab:AddButton({
+	Name = "DreadzHub(PC and Mobile)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DreadzHub2/DreadzHub-Scripts-FR/main/Loader"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Kometa(PC and Mobile)",
+	Callback = function()
+		loadstring(game:HttpGet('https://s.kometa.ga/kometa.lua'))()
   	end    
 })
