@@ -15,7 +15,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddLabel("Hello users of my script, here is how you can contact me,good use.")
+Tab:AddParagraph("Welcome","Hello users of my script, here is how you can contact me,good use.")
 
 Tab:AddLabel("Discord:Kaguya#9652")
 
@@ -96,6 +96,13 @@ Tab:AddButton({
 	Name = "Viribus(PC and Mobile)",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ViribusOwner/Viribus/main/Loader", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "KibachiHub(PC and Mobile)",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Kidichi/Kidachi/main/KidachiHub/Loader', true))()
   	end    
 })
 
@@ -235,7 +242,7 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-	Name = "bee Swarm Simulator",
+	Name = "Bee Swarm Simulator",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
