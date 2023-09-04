@@ -17,7 +17,7 @@ local Tab = Window:MakeTab({
 
 Tab:AddParagraph("Welcome","Hello users of my script, here is how you can contact me,good use.")
 
-Tab:AddLabel("Discord:Kaguya#9652")
+Tab:AddLabel("Discord:mrkaguya")
 
 Tab:AddLabel("Telegram channel:Kaguya X Script")
 
